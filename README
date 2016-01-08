@@ -1,0 +1,13 @@
+This is an ongoing project, a commandline calculator that does arithmetic on an 
+infinite amount of digits. This is achieved through char pointers and parsing
+algorithms of each char for processing involving arithmetic, carry, and borrow.
+A stack of chars is used in assistance of these functions to produce correct
+output character by character. The arithmetic functions are found in 
+OperationsLib.c in addition to other calculations. HelperLib.c does house
+keeping while performing arithmetic. Amount of digits capable by this 
+calculator is defined in a macros file along with a constant that allows 
+conversion between integer to character. The intent of this project is to
+parse cammondline arguments where an operator calls a function and performs
+the intended operation on the operands. This calculator is also able to
+find greatest common factor and list a sequence of perfect numbers given an
+upperbound limit.
